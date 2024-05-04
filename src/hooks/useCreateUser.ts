@@ -13,7 +13,7 @@ const CREATE_USER = gql`
     createUser(createUserData: $createUserData) {
       _id
       email
-    }
+    } 
   }
 `;
 
